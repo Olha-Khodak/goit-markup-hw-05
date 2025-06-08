@@ -536,7 +536,7 @@ img {
 }
 
 .footer-email {
-  width: 246px;
+  width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -562,13 +562,14 @@ img {
   display: flex;
   gap: 16px;
   justify-content: center;
+  align-items: center;
   border: none;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
   background-color: #4d5ae5;
@@ -578,7 +579,7 @@ img {
 
 .send-icon {
   fill: #fff;
-  padding-right: 24px;
+  margin-left: 16px;
 }
 /* =====MODAL===== */
 
@@ -760,7 +761,6 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
